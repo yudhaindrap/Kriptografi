@@ -31,8 +31,8 @@ export default function Calculator() {
       <div className="text-center space-y-2">
         <h1 className="text-3xl font-black tracking-tight">
           Kalkulator{" "}
-          <span className="text-black">KRIP</span>
-          <span className="text-blue-500">TO.</span>
+          <span className="text-black">Krip</span>
+          <span className="text-blue-500">To.</span>
         </h1>
       </div>
 
