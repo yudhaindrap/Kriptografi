@@ -24,12 +24,6 @@ export default function Navbar() {
           active={isActive("/calc")} 
         />
         <NavItem 
-          to="/learn" 
-          icon={<BookOpen size={22} />} 
-          label="Edukasi" 
-          active={isActive("/learn")} 
-        />
-        <NavItem 
           to="/profile" 
           icon={<User size={22} />} 
           label="Profil" 

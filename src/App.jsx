@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Calculator from "./pages/Calculator";
-import Education from "./pages/Education";
 import Profile from "./pages/Profile";
 
 export default function App() {
@@ -15,7 +14,7 @@ export default function App() {
             KRYP<span className="text-blue-500">TO.</span>
           </div>
           <div className="hidden md:block text-[10px] font-black text-slate-400 uppercase tracking-[0.3em]">
-            Digital Security Project 2026
+            Kalkulator Kriptografi Klasik 2026
           </div>
         </header>
 
@@ -24,7 +23,6 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calc" element={<Calculator />} />
-            <Route path="/learn" element={<Education />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </main>

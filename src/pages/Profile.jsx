@@ -41,7 +41,7 @@ export default function Profile() {
             </a>
 
             <a 
-              href="https://link-website-kamu.com" 
+              href="https://kriptografi-wheat.vercel.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-4 bg-blue-500 text-white rounded-2xl hover:scale-110 transition-transform"

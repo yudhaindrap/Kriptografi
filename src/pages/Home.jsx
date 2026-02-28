@@ -14,7 +14,7 @@ export default function Home() {
   const features = [
     { icon: <Lock size={20} />, title: "Vigenere", desc: "Polyalphabetic Substitution" },
     { icon: <Zap size={20} />, title: "Affine", desc: "Linear Mathematical Mapping" },
-    { icon: <Cpu size={20} />, title: "Hill", desc: "Linear Algebra Matrix 2x2" },
+    { icon: <Cpu size={20} />, title: "Hill", desc: "Linear Algebra Matrix 2x2 & 3x3" },
     { icon: <ShieldCheck size={20} />, title: "Playfair", desc: "5x5 Digraphic Substitution" },
     { icon: <ShieldAlert size={20} />, title: "Enigma", desc: "WWII Rotor Machine Logic" },
   ];
@@ -43,7 +43,7 @@ export default function Home() {
             <span className="text-blue-500">Simplified.</span>
           </h1>
           <p className="text-slate-400 max-w-lg mx-auto text-lg font-medium leading-relaxed">
-            Platform kalkulator kriptografi klasik tercanggih untuk tugas besar Semester Genap 2025/2026.
+            Platform kalkulator kriptografi klasik untuk tugas Matakuliah Kriptografi Semester Genap 2025/2026.
           </p>
         </motion.div>
 
@@ -58,12 +58,6 @@ export default function Home() {
             className="bg-blue-500 text-white px-10 py-5 rounded-2xl font-black tracking-wider shadow-xl shadow-blue-200 hover:bg-blue-600 hover:-translate-y-1 transition-all flex items-center gap-3"
           >
             MULAI SEKARANG <ArrowRight size={20} />
-          </Link>
-          <Link
-            to="/learn"
-            className="bg-white text-slate-600 border border-slate-100 px-10 py-5 rounded-2xl font-bold hover:bg-slate-50 transition-all"
-          >
-            Pelajari Teori
           </Link>
         </motion.div>
       </section>

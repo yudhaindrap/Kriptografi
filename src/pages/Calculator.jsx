@@ -29,8 +29,10 @@ export default function Calculator() {
     >
       {/* Header Section */}
       <div className="text-center space-y-2">
-        <h1 className="text-3xl font-black text-slate-800 tracking-tight">
-          Kalkulator <span className="text-blue-500">Kripto.</span>
+        <h1 className="text-3xl font-black tracking-tight">
+          Kalkulator{" "}
+          <span className="text-black">KRIP</span>
+          <span className="text-blue-500">TO.</span>
         </h1>
       </div>
 
